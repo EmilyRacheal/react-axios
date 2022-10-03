@@ -17,9 +17,9 @@ function App() {
   const arr = data.map((data, index) => {
     return (
       <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
+        <td>{data.id}</td>
+        <td>{data.id}</td>
+        <td>{data.id}</td>
       </tr>
     );
   });
